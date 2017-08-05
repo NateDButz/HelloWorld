@@ -1,7 +1,8 @@
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Shell;
-import org.eclipse.swt.widgets.Text;
+//import org.eclipse.swt.widgets.Text;
+import org.eclipse.swt.widgets.Label;
 
 public class HelloWorld {
 
@@ -12,7 +13,7 @@ public class HelloWorld {
 		Display disp = new Display ();
 		Shell shl = new Shell(disp);
 		
-		Text helloWrd = new Text(shl,SWT.NONE);
+		Label helloWrd = new Label(shl,SWT.NONE);
 		helloWrd.setText("Hello World!");
 		helloWrd.pack();
 		
