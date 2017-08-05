@@ -16,7 +16,7 @@ public class HelloWorld {
 		shl.setLayout(new RowLayout());
 		
 		Label helloWrd = new Label(shl,SWT.NONE);
-		helloWrd.setText("Hello World!");
+		helloWrd.setText("Hello Nate!");
 		helloWrd.pack();
 		Text msg = new Text(shl,SWT.NONE);
 		msg.pack();
