@@ -4,6 +4,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry exported="true" kind="var" path="SWT_LIB"/>
 	<classpathentry exported="true" kind="var" path="ECLIPSE_HOME"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/org.eclipse.swt"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/org.eclipse.swt"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
