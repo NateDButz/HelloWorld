@@ -10,7 +10,7 @@ public class HelloWorld {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		
+		String st = "";
 		Display disp = new Display ();
 		Shell shl = new Shell(disp);
 		shl.setLayout(new RowLayout());
@@ -24,10 +24,12 @@ public class HelloWorld {
 		shl.pack();
 		shl.open ();
 		while (!shl.isDisposed ()) {
+			st = msg.getText();
 			if(!disp.readAndDispatch ()) disp.sleep ();
+			
 		}
 		disp.dispose ();
-			System.out.println("Hello World!");
+		System.out.println("Hello World! - "+ st);
 	}
 
 }
