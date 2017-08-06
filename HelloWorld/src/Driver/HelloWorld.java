@@ -1,5 +1,6 @@
 package Driver;
-import GUI.HelloWorldDialog;
+//import GUI.HelloWorldDialog;
+import GUI.SelectLaguage;
 
 /**
  * Hello World
@@ -8,8 +9,10 @@ import GUI.HelloWorldDialog;
 public class HelloWorld {
 
 	public static void main(String[] args) {
-		HelloWorldDialog dialog = new HelloWorldDialog();
-		dialog.createDialog();
+		SelectLaguage dialog = new SelectLaguage();
+		dialog.setLang();
+		//HelloWorldDialog dialog = new HelloWorldDialog();
+		//dialog.createDialog();
 	}
 
 }
